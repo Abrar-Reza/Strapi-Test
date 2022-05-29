@@ -4,6 +4,6 @@ module.exports = ({ env }) => ({
     url: "https://strapi-todo.azurewebsites.net",
     admin: {
       url: "https://happy-bay-086e8680f.1.azurestaticapps.net",
-      serveAdminPanel: false,
+      serveAdminPanel: true,
     },
 });
