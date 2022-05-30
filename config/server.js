@@ -4,7 +4,7 @@ module.exports = ({ env }) => ({
   url: "https://strapi-todo.azurewebsites.net",
   admin: {
     url: "https://strapi-todo.azurewebsites.net",
-    serveAdminPanel: false,
+    serveAdminPanel: true,
   },
   app: {
     keys: env.array('APP_KEYS'),
