@@ -4,7 +4,8 @@
   "info": {
     "singularName": "task",
     "pluralName": "tasks",
-    "displayName": "Task"
+    "displayName": "Task",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -12,6 +13,9 @@
   "pluginOptions": {},
   "attributes": {
     "todo": {
+      "type": "string"
+    },
+    "status": {
       "type": "string"
     }
   }
